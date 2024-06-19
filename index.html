@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="John Doe">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  </head>
+  <body>
+<header>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container">
+    <a class="navbar-brand" href="#">Logo</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Link1</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link2</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="#">Link3</a>
+        </li>
+      </ul>
+    </div>
+    <div class="btn-header">
+       <button class="btn btn-outline-success custom-button" type="submit">Search</button>
+    </div>
+  </div>
+</nav>
+</header>
+    <section class="vote_for_candidate">
+      <div class="container">
+        <div class="col-sm-12">
+          <div class="vote-container">
+            <h1 class="vote-heading text-center">Vote for Your Favorite <br>Candidate </h1>
+            <p class="vote-description text-center">We show the transparent & true vote count. Show your pride and vote for your future <br> president every 3 hours. Share you vote to your friends. Let’s see who wins </p>
+            <div class="voter-candidate-wrapper d-flex align-items-center justify-content-between">
+              <div class="candidate-list d-flex align-items-center justify-content-between flex-column">
+                <div class="candidate-list-content text-center">
+                <img src="images/candidate2.png" alt="">
+                <h6 class="candidate-name">Donald Trump</h6>
+                <button type="btn" class="vote-btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop"> Vote for Trump <span class="lock-vote">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="46" height="58" viewBox="0 0 46 58" fill="none">
+                      <g filter="url(#filter0_d_811_12)">
+                        <path d="M36.8125 18.75H35.25V12.5C35.25 5.60625 29.6437 0 22.75 0C15.8562 0 10.25 5.60625 10.25 12.5V18.75H8.6875C6.10417 18.75 4 20.8521 4 23.4375V45.3125C4 47.8979 6.10417 50 8.6875 50H36.8125C39.3958 50 41.5 47.8979 41.5 45.3125V23.4375C41.5 20.8521 39.3958 18.75 36.8125 18.75ZM14.4167 12.5C14.4167 7.90417 18.1542 4.16667 22.75 4.16667C27.3458 4.16667 31.0833 7.90417 31.0833 12.5V18.75H14.4167V12.5ZM24.8333 34.8375V39.5833C24.8333 40.7333 23.9021 41.6667 22.75 41.6667C21.5979 41.6667 20.6667 40.7333 20.6667 39.5833V34.8375C19.4271 34.1146 18.5833 32.7854 18.5833 31.25C18.5833 28.9521 20.4521 27.0833 22.75 27.0833C25.0479 27.0833 26.9167 28.9521 26.9167 31.25C26.9167 32.7854 26.0729 34.1146 24.8333 34.8375Z" fill="white" />
+                      </g>
+                      <defs>
+                        <filter id="filter0_d_811_12" x="0" y="0" width="45.5" height="58" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                          <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                          <feOffset dy="4" />
+                          <feGaussianBlur stdDeviation="2" />
+                          <feComposite in2="hardAlpha" operator="out" />
+                          <feColorMatrix type="matrix" values="0 0 0 0 0.1125 0 0 0 0 0.111094 0 0 0 0 0.111094 0 0 0 0.05 0" />
+                          <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_811_12" />
+                          <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_811_12" result="shape" />
+                        </filter>
+                      </defs>
+                    </svg>
+                  </span>
+                </button>
+                </div>
+              </div>
+              <div class="candidate-list d-flex align-items-center justify-content-between flex-column">
+                <div class="candidate-list-content text-center">
+                <img src="images/candidate1.png" alt="">
+                <h6 class="candidate-name">Joe Biden</h6>
+                <button class="vote-btn" data-bs-toggle="modal" data-bs-target="#staticvotebiden"> Vote for Biden <span class="lock-vote">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="46" height="58" viewBox="0 0 46 58" fill="none">
+                      <g filter="url(#filter0_d_811_12)">
+                        <path d="M36.8125 18.75H35.25V12.5C35.25 5.60625 29.6437 0 22.75 0C15.8562 0 10.25 5.60625 10.25 12.5V18.75H8.6875C6.10417 18.75 4 20.8521 4 23.4375V45.3125C4 47.8979 6.10417 50 8.6875 50H36.8125C39.3958 50 41.5 47.8979 41.5 45.3125V23.4375C41.5 20.8521 39.3958 18.75 36.8125 18.75ZM14.4167 12.5C14.4167 7.90417 18.1542 4.16667 22.75 4.16667C27.3458 4.16667 31.0833 7.90417 31.0833 12.5V18.75H14.4167V12.5ZM24.8333 34.8375V39.5833C24.8333 40.7333 23.9021 41.6667 22.75 41.6667C21.5979 41.6667 20.6667 40.7333 20.6667 39.5833V34.8375C19.4271 34.1146 18.5833 32.7854 18.5833 31.25C18.5833 28.9521 20.4521 27.0833 22.75 27.0833C25.0479 27.0833 26.9167 28.9521 26.9167 31.25C26.9167 32.7854 26.0729 34.1146 24.8333 34.8375Z" fill="white" />
+                      </g>
+                      <defs>
+                        <filter id="filter0_d_811_12" x="0" y="0" width="45.5" height="58" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                          <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                          <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                          <feOffset dy="4" />
+                          <feGaussianBlur stdDeviation="2" />
+                          <feComposite in2="hardAlpha" operator="out" />
+                          <feColorMatrix type="matrix" values="0 0 0 0 0.1125 0 0 0 0 0.111094 0 0 0 0 0.111094 0 0 0 0.05 0" />
+                          <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_811_12" />
+                          <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_811_12" result="shape" />
+                        </filter>
+                      </defs>
+                    </svg>
+                  </span>
+                </button>
+                </div>
+              </div>
+            </div>
+            <div class="vote-again-wrapper">
+              <h2 class="vote-again-heading">You can vote again in</h2>
+              <ul class="vote-again-timer">
+                <li>
+                  <div class="timer-tracker">
+                    <div class="time-number">
+                      <span>1</span>
+                    </div>
+                    <p>Hour</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="timer-tracker">
+                    <div class="time-number">
+                      <span>12</span>
+                    </div>
+                    <p>Minutes</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="timer-tracker">
+                    <div class="time-number">
+                      <span>30</span>
+                    </div>
+                    <p>Seconds</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="vote-count">
+              <div class="vote-count-wrapper d-flex gap-4 align-items-center justify-content-center">
+                <span class="vote-count-img">
+                  <img src="images/candidate2.png" alt="">
+                </span>
+                <span class="vote-count-num">
+                  <span class="vote-ratio vote-ratio1">62</span> : <span class="vote-ratio vote-ratio2">37</span>
+                </span>
+                <span class="vote-count-img vote-count-img2">
+                  <img src="images/candidate1.png" alt="">
+                </span>
+              </div>
+              <p>Total Vote Counts</p>
+              <div class="vote-date">Jan 9 , 2024</div>
+            </div>
+            <div class="vote-fillter-wrapper">
+              <div class="vote-fillter">
+                <div class="vote-fillter-heading d-flex gap-4 align-items-center justify-content-between">
+                  <h6>Vote Count Filter</h6>
+                  <select name="days" id="VoteDAys">
+                    <option value="days">7 days</option>
+                    <option value="days">8 days</option>
+                    <option value="days">9 days</option>
+                    <option value="days">10 days</option>
+                  </select>
+                </div>
+              </div>
+              <ul class="vote-fillter-list p-0">
+                <li>
+                  <div class="vote_list d-flex align-items-center justify-content-between">
+                    <span class="list-candidate-name">Donald Trump</span>
+                    <span class="total-vote">62</span>
+                  </div>
+                </li>
+                <li>
+                  <div class="vote_list d-flex align-items-center justify-content-between">
+                    <span class="list-candidate-name">Joe Biden</span>
+                    <span class="total-vote">37</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+<!-- -----vote model-close- start----- -->
+<div class="model-custom">
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="images/check.png" class="img-fluid">
+        <h5>
+          Your Vote has been Placed
+        </h5>
+        <p> Show you pride, share your vote. Every share also has a chance to win $1,000!</p> 
+        <div class="votecount">
+        <div class="img-vote-icon">
+          <img src="images/vote-icon.png">
+        </div>
+          <p> i just vote on VoteCount</p>
+          <a href="#">WWW.VOTE-COUNT.COM</a>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <h4>Social Share</h4>
+        <p>Sharing to social count your votes <span>2X</span>
+        <div class="footer-img">
+          <img src="images/face-book.png">
+          <img src="images/twitter.png">
+          <img src="images/sms.png">
+        </div>
+        <button type="button" class="btn btn-primary btn-modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!-- -----vote model-close-end----- -->
+
+<!-- -----voteobiden-start---- -->
+
+
+<div class="model-custom-biden">
+<div class="modal fade" id="staticvotebiden" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-center">
+        <img src="images/face-book.png">
+        <h5>
+          Share on Facebook
+        </h5>
+        <p>Select your caption below and then click share</p> 
+         
+        <div class="form-check">
+          <label class="form-check-label" for="exampleRadios1">
+            Option 1
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+          <p>i just voted for Donaid Trump on VoteCount - Cast your vote now!</p>
+          </label>
+          
+        </div>
+        <div class="form-check">
+          <label class="form-check-label" for="exampleRadios2">
+             Option 2
+          </label>
+          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+          <p>i just voted for Donaid Trump on VoteCount - Cast your vote now!</p>
+        </div>
+        <div class="form-check">
+          <label class="form-check-label" for="exampleRadios3">
+             Option 3
+          </label>
+          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+          <p>i just voted for Donaid Trump on VoteCount - Cast your vote now!</p>
+        </div>
+      </div>
+      <div class="modal-footer">
+        
+        <button type="button" class="btn btn-primary btn-modal">Share</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!-- -----voteobiden-end---- -->
+<div class="label-selected">
+  <input type="radio" id="plan-59" class="choosedPlan" name="plans" value="plan-5" checked>
+<label for="plan-59">
+  <div class="d-flex align-items-center justify-content-between py-xl-2 py-2 currentPlan">
+    <span class="d-block value fw-bold plan1">PLAN 5</span>
+    <span class="item-span">save 50%</span>
+  </div>
+  <div class="d-flex align-items-center justify-content-between py-xl-2 py-2">
+    <span class="d-block item-value fw-bold">$59.00</span>
+    <span class="item-billed">BILLED ANNUALLY</span>
+  </div>
+  <div class="d-flex align-items-center justify-content-between py-xl-2 py-2">
+    <a href="https://ggeoplugin.com/subscription" class="d-block viewplan fw-medium">View Plan
+      <i class="fa-solid fa-arrow-right ms-1"></i>
+    </a>
+  </div>
+  <span class="radio-check"></span>
+</label>
+
+<input type="radio" id="plan-5" class="choosedPlan" name="plans" value="plan-6">
+<label for="plan-5">
+  <div class="d-flex align-items-center justify-content-between py-xl-2 py-2 currentPlan">
+    <span class="d-block value fw-bold plan1">PLAN 6</span>
+    <span class="item-span">save 50%</span>
+  </div>
+  <div class="d-flex align-items-center justify-content-between py-xl-2 py-2">
+    <span class="d-block item-value fw-bold">$69.00</span>
+    <span class="item-billed">BILLED ANNUALLY</span>
+  </div>
+  <div class="d-flex align-items-center justify-content-between py-xl-2 py-2">
+    <a href="https://ggeoplugin.com/subscription" class="d-block viewplan  fw-medium">View
+      Plan <i class="fa-solid fa-arrow-right ms-1"></i>
+    </a>
+  </div>
+  <span class="radio-check"></span>
+
+</label>
+</div>
+
+  </body>
+</html>

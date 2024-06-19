@@ -1,0 +1,494 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    padding: 0;
+    margin: 0;  
+}
+.custom-button{
+    border-radius: 32px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+
+.vote_for_candidate {
+    padding: 90px 0;
+}
+.vote-container
+{
+    max-width:100%;
+    margin: 0 auto;
+    width: 70%;
+} 
+.voter-candidate-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin: 100px auto 50px;
+}
+.candidate-list {
+    padding: 20px 0;
+    width: 50%;
+    height: 400px;
+}
+.candidate-list:first-child {
+    border-radius: 100px;
+    background: #FFECE9;
+}
+.candidate-list img {
+    width: 150px;
+    height:150px;
+    border-radius: 50%;
+}
+.candidate-list:nth-child(2){
+    border-radius: 100px;
+    background: #CBEEFF;
+}
+.candidate-name {
+    color: #00000C;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: normal;
+    padding: 34px 0 48px 0;
+}
+.vote-btn {
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 1000px;
+    background: #3C74F9;
+    border: 0;
+    padding:15px 50px;
+    display: block;
+    position: relative;
+}
+.vote-heading {
+    color: #00000C;
+    text-align: center;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 35px;
+}
+.vote-description {
+    color: #484848;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+}
+.lock-vote {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 21%;
+    display: block;
+    width: fit-content;
+    display: none;
+}
+.vote-again-timer {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    text-align: center;
+    gap: 20px;
+}
+.timer-tracker p {
+    margin-top: 10px;
+}
+.time-number {
+    border-radius: 10px;
+    border: 2px solid #3C74F9;
+    color: #3C74F9;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 20px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vote-again-heading {
+    color: #00000C;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.timer-tracker p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #6f7ea3;
+}
+.vote-again-wrapper{
+    border-bottom: 1px solid #DEE3ED;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+.vote-count-img img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 5px solid #FFC7BE;
+}
+.vote-count-img.vote-count-img2 img{
+    border: 5px solid #FFE29A;
+    
+}
+.vote-count{
+    padding: 50px 0 80px;
+    border-bottom: 1px solid #DEE3ED;
+}
+.vote-count-num {
+    font-size: 80px;
+    color: #65769D;
+}
+.vote-ratio.vote-ratio1{
+    color: #00000C;
+}
+.vote-count-wrapper span {
+    line-height: 0;
+}
+.vote-count p {
+    color: #00000C;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 20px;
+}
+.vote-fillter-wrapper{
+    width: 70%;
+    margin: 50px auto 0;
+}
+.vote-fillter-heading h6 {
+    color: #00000C;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+}
+#VoteDAys {
+    border-radius: 5px;
+    border: 1px solid #DEE3ED;
+    background: #FFF;
+    color: #00000C;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 30px;
+    max-width: 900px;
+    padding: 10px 20px;
+    width:35%;
+}
+.vote-fillter-list {
+    list-style: none;
+    margin-top: 50px;
+}
+.vote_list {
+    color: #65769D;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.vote-fillter-list li {
+    padding:10px 0;
+    border-bottom: 1px solid #DEE3ED;
+}
+.vote-date {
+    margin-top: 10px;
+    color: #65769D;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.vote-again-wrapper{
+    display: none;
+}
+
+/*---css for style model---*/
+
+.model-custom .modal-header{
+    border:none;
+}
+.model-custom .modal-body{
+    text-align: center;
+}
+.model-custom .modal-body h5{
+    padding-top:20px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.model-custom .modal-body p{
+    font-size:12px;
+    padding: 12px 0 0;
+     color:#a4a6ac;
+}
+.model-custom .votecount a{
+   font-size:12px;
+   text-decoration: none;
+}
+.model-custom .modal-body img{
+    width:60px;
+    object-fit: contain;
+}
+.model-custom .img-vote-icon img{
+    border: 1px solid #dde2ee;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 25px 0;
+}
+.model-custom  .votecount{
+    border: 1px solid #dde2ee;
+    border-radius: 15px;
+    padding-bottom: 20px ;
+}
+.model-custom .modal-dialog{
+    max-width:580px;
+}
+.model-custom .modal-content{
+   padding:15px 50px;
+}
+.model-custom  .votecount p{
+    font-size: 16px;
+    color: #a4a6ac;
+}
+.model-custom  .footer-img img{
+  width: 60px;
+   border: 1px solid #dde2ee;
+    padding: 10px;
+    border-radius: 15px;
+    object-fit: contain;
+    margin-left: 10px;
+
+}
+.modal-footer {
+    display: block;
+    text-align: center;
+    border: none;
+}
+.modal-footer p{
+    padding: 6px 0 20px;
+    color: #a4a6ac;
+    font-size:12px;
+}
+.modal-footer .btn-modal{
+  border-radius: 50px;
+    margin-top: 20px;
+    padding: 13px 60px;
+}
+.modal-footer span{
+   border: 1px solid #1cb01c;
+    border-radius: 50%;
+    padding: 3px;
+    color: #1cb01c;
+    font-size: 12px;
+    font-weight: 700; 
+}
+ .model-custom  .modal-body {
+    padding: 0;
+}
+ .model-custom  .modal-header .btn-close{
+    background-color: #0d0ded;
+    font-size: 9px;
+    color: white;
+    opacity: 1;
+    margin-right: -50px ;
+    --bs-btn-close-bg: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'><path d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z'/></svg>");
+}
+
+.model-custom-biden .modal-body img{
+    border: 1px solid #dde2ee;
+    padding: 10px;
+    border-radius: 15px;
+    width: 60px;
+    object-fit: contain;
+}
+.model-custom-biden .modal-body h5 {
+    padding-top: 20px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.model-custom-biden  .modal-body p {
+    font-size: 12px;
+    padding: 12px 0 0;
+    color: #a4a6ac;
+}
+.model-custom-biden .modal-header{
+    border:none;
+}
+.model-custom-biden .form-check .form-check-input{
+    float: right;
+}
+.model-custom-biden  .form-check{
+    text-align: left;
+    border: 1px solid #dde2ee;
+    padding: 8px 13px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+.model-custom-biden  .modal-dialog{
+    max-width:550px;
+}
+.model-custom-biden  .modal-content{
+    padding: 0 40px;
+}
+.model-custom-biden .modal-header .btn-close{
+    background-color: #0d0ded;
+    font-size: 9px;
+    color: white;
+    opacity: 1;
+    margin-right: -50px ;
+    --bs-btn-close-bg: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'><path d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z'/></svg>");
+}
+
+/*label css*/
+.label-selected .item-span{
+background-color: #CFF5E5;
+color: #008000;
+border-radius: 5px;
+padding:3px 4px;
+
+}
+ .label-selected .item-value{
+    font-size:20px;
+}
+.label-selected .viewplan{
+    font-size: 14px;
+    font-weight: 600;
+    color: #008000;
+    position: relative;
+}
+.label-selected .viewplan::before{
+    content: '';
+    position: absolute;
+    border-bottom: 2px solid #008000;
+    width:79%;
+    height: 22px;
+}
+.label-selected label {
+    border: 2px solid #DBDBDB;
+    display: block;
+    margin-bottom:10px;
+    cursor: pointer;
+    position: relative;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.label-selected input:checked+label {
+    border: 2px solid green;
+}
+
+.label-selected input {
+    position: absolute;
+    left: -9999px;
+    opacity: 0
+}
+
+.label-selected label .radio-check{
+    position: absolute;
+    right: 20px;
+    bottom: 29px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #fff;
+    border: 3px solid #DBDBDB;
+}
+
+.label-selected input:checked+label .radio-check {
+    background: green;
+    color: #fff;
+    border-color: #008000;
+}
+
+.label-selected input:checked+label .radio-check:after {
+    background-image: url('data:image/svg+xml,<svg width="11" height="9" viewBox="0 0 11 9" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.41586 0.938117L4.25707 6.08072L1.89271 3.72369C1.53663 3.36872 0.959188 3.36866 0.603045 3.72363C0.246902 4.07866 0.246902 4.65424 0.603045 5.00927L3.61221 8.00915C3.78323 8.17963 4.01516 8.27545 4.25701 8.27545C4.25707 8.27545 4.25701 8.27545 4.25707 8.27545C4.49892 8.27545 4.73085 8.17963 4.90187 8.00921L10.7055 2.22381C11.0617 1.86878 11.0617 1.29321 10.7055 0.938178C10.3494 0.583148 9.772 0.583087 9.41586 0.938117Z" fill="white"/></svg>');
+    position: relative;
+    top: -3px;
+    left: 2px;
+    width: 15px;
+    background-size: 15px;
+    display: block;
+    content: '';
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 25px;
+}
+.label-selected{
+    max-width:600px;
+    width:100%;
+    margin:0 auto;
+}
+
+
+@media only screen and (max-width:768px) {
+    .vote_for_candidate{
+        padding: 40px 0;
+    }
+    .vote-container{
+        width: 100%;
+        max-width:100%;
+    }
+    .vote-heading {
+        font-size: 32px;
+        line-height: normal;
+    }
+    .vote-description {
+        font-size: 16px;
+        line-height: normal;
+    }
+    .vote-description br {
+        display: none;
+    }
+    .voter-candidate-wrapper {
+        margin: 30px 0 40px 0;
+        gap: 20px;
+    }
+    .candidate-list img {
+        width: 70px;
+        height: 70px;
+    }
+    .candidate-name {
+        font-size: 18px;
+        line-height: normal;
+        padding: 10px 0 20px;
+    }
+    .vote-btn {
+        font-size: 14px;
+        padding:12px 20px;
+    }
+    .candidate-list {
+        height: 207px;
+        border-radius: 40px !important;
+    }
+    .vote-count-img {
+        display: none;
+    }
+    .vote-count p {
+        margin-top: 60px;
+    }
+    .vote-count {
+        padding-bottom: 50px;
+    }
+    .vote-fillter-wrapper {
+        width: 100%;
+    }
+    .vote-fillter-heading h6 {
+        font-size: 16px;
+    }
+    #VoteDAys {
+        width: 180px;
+    }
+  }
